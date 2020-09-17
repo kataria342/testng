@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="59" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:20 IST">
+    <groups>
+      <group name="testGroup">
+        <method signature="WithGroups.testThree()[pri:0, instance:annotations.WithGroups@1f57539]" name="testThree" class="annotations.WithGroups"/>
+        <method signature="WithGroups.testTwo()[pri:0, instance:annotations.WithGroups@1f57539]" name="testTwo" class="annotations.WithGroups"/>
+      </group> <!-- testGroup -->
+      <group name="demoGroup">
+        <method signature="WithGroups.testOne()[pri:0, instance:annotations.WithGroups@1f57539]" name="testOne" class="annotations.WithGroups"/>
+        <method signature="WithGroups.testTwo()[pri:0, instance:annotations.WithGroups@1f57539]" name="testTwo" class="annotations.WithGroups"/>
+      </group> <!-- demoGroup -->
+    </groups>
+    <test name="Test" duration-ms="59" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:20 IST">
+      <class name="annotations.WithGroups">
+        <test-method status="PASS" signature="testFour()[pri:0, instance:annotations.WithGroups@1f57539]" name="testFour" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:annotations.WithGroups@1f57539]" name="testOne" duration-ms="2" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:annotations.WithGroups@1f57539]" name="testThree" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:annotations.WithGroups@1f57539]" name="testTwo" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- annotations.WithGroups -->
+      <class name="annotations.BeforeAfter">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:annotations.BeforeAfter@e320068]" name="testOne" duration-ms="6" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:annotations.BeforeAfter@e320068]" name="testTwo" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- annotations.BeforeAfter -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
