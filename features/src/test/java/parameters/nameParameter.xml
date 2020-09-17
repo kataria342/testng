@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="demosuite">
+	<parameter name="name" value="Pawan"></parameter>
+	<parameter name="city" value="Jalandhar"></parameter>
+	<test name="example">
+		<parameter name="city" value="Hoshiarpur"></parameter>
+		<classes>
+			<class name="parameters.UsingTestNGxml" />
+		</classes>
+	</test>
+	<test name="example1">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="parameters.UsingTestNGxml" />
+		</classes>
+	</test>
+</suite>

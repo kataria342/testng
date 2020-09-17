@@ -2,86 +2,92 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="59" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:20 IST">
+  <suite name="demosuite" duration-ms="119" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
     <groups>
-      <group name="testGroup">
-        <method signature="WithGroups.testThree()[pri:0, instance:annotations.WithGroups@1f57539]" name="testThree" class="annotations.WithGroups"/>
-        <method signature="WithGroups.testTwo()[pri:0, instance:annotations.WithGroups@1f57539]" name="testTwo" class="annotations.WithGroups"/>
-      </group> <!-- testGroup -->
-      <group name="demoGroup">
-        <method signature="WithGroups.testOne()[pri:0, instance:annotations.WithGroups@1f57539]" name="testOne" class="annotations.WithGroups"/>
-        <method signature="WithGroups.testTwo()[pri:0, instance:annotations.WithGroups@1f57539]" name="testTwo" class="annotations.WithGroups"/>
-      </group> <!-- demoGroup -->
     </groups>
-    <test name="Test" duration-ms="59" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:20 IST">
-      <class name="annotations.WithGroups">
-        <test-method status="PASS" signature="testFour()[pri:0, instance:annotations.WithGroups@1f57539]" name="testFour" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:annotations.WithGroups@1f57539]" name="testOne" duration-ms="2" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testThree()[pri:0, instance:annotations.WithGroups@1f57539]" name="testThree" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:annotations.WithGroups@1f57539]" name="testTwo" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- annotations.WithGroups -->
-      <class name="annotations.BeforeAfter">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:19 IST" finished-at="2020-09-17T18:30:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:annotations.BeforeAfter@e320068]" name="testOne" duration-ms="6" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+    <test name="example" duration-ms="69" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+      <class name="parameters.UsingTestNGxml">
+        <test-method status="PASS" signature="testOne(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@74650e52]" name="testOne" duration-ms="11" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pawan]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+        <test-method status="PASS" signature="testSingleString(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@74650e52]" name="testSingleString" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pawan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hoshiarpur]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:annotations.BeforeAfter@e320068]" name="testTwo" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+        </test-method> <!-- testSingleString -->
+        <test-method status="PASS" signature="testTwo(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@74650e52]" name="testTwo" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+      </class> <!-- parameters.UsingTestNGxml -->
+    </test> <!-- example -->
+    <test name="example1" duration-ms="20" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+      <class name="parameters.UsingTestNGxml">
+        <test-method status="PASS" signature="testOne(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@bd8db5a]" name="testOne" duration-ms="7" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pawan]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testSingleString(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@bd8db5a]" name="testSingleString" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pawan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jalandhar]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
+        </test-method> <!-- testSingleString -->
+        <test-method status="PASS" signature="testTwo(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@bd8db5a]" name="testTwo" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:annotations.BeforeAfter@e320068]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-09-17T18:30:20 IST" finished-at="2020-09-17T18:30:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- annotations.BeforeAfter -->
-    </test> <!-- Test -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- testTwo -->
+      </class> <!-- parameters.UsingTestNGxml -->
+    </test> <!-- example1 -->
+  </suite> <!-- demosuite -->
 </testng-results>
