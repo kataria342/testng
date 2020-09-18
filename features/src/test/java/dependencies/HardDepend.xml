@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HardSoftSuite">
+	<test name="testDemo">
+		<groups>
+			<run>
+				<include name="hardDependencies"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="dependencies.DependAnnot"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testSuite">
+	<test name="test">
+		<groups>
+			<dependencies>
+			<!-- The <depends-on> attribute contains a space-separated list of groups. -->
+				<group name="c" depends-on="a b" />
+				<group name="d" depends-on="a" />
+			</dependencies>
+		</groups>
+		<classes>
+		<class name="dependencies.DependXML"></class>
+		</classes>
+	</test>
+</suite>
