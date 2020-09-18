@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8021" started-at="2020-09-18T19:39:05 IST" finished-at="2020-09-18T19:39:13 IST">
+  <suite name="Default suite" duration-ms="81" started-at="2020-09-18T19:59:04 IST" finished-at="2020-09-18T19:59:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8021" started-at="2020-09-18T19:39:05 IST" finished-at="2020-09-18T19:39:13 IST">
-      <class name="factories.WebTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:factories.WebTest@536aaa8d]" name="setup" is-config="true" duration-ms="4894" started-at="2020-09-18T19:39:05 IST" finished-at="2020-09-18T19:39:10 IST">
+    <test name="Default test" duration-ms="81" started-at="2020-09-18T19:59:04 IST" finished-at="2020-09-18T19:59:04 IST">
+      <class name="factories.SimpleTest">
+        <test-method status="PASS" signature="testName()[pri:0, instance:factories.SimpleTest@17579e0f, instance params:[]]" name="testName" duration-ms="20" started-at="2020-09-18T19:59:04 IST" finished-at="2020-09-18T19:59:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openGoogle()[pri:0, instance:factories.WebTest@536aaa8d, instance params:[]]" name="openGoogle" duration-ms="3023" started-at="2020-09-18T19:39:10 IST" finished-at="2020-09-18T19:39:13 IST">
+        </test-method> <!-- testName -->
+        <test-method status="PASS" signature="testName()[pri:0, instance:factories.SimpleTest@4b1c1ea0, instance params:[]]" name="testName" duration-ms="1" started-at="2020-09-18T19:59:04 IST" finished-at="2020-09-18T19:59:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openGoogle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:factories.WebTest@536aaa8d]" name="closeBrowser" is-config="true" duration-ms="70" started-at="2020-09-18T19:39:13 IST" finished-at="2020-09-18T19:39:13 IST">
+        </test-method> <!-- testName -->
+        <test-method status="PASS" signature="testName()[pri:0, instance:factories.SimpleTest@4d41cee, instance params:[]]" name="testName" duration-ms="2" started-at="2020-09-18T19:59:04 IST" finished-at="2020-09-18T19:59:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- factories.WebTest -->
+        </test-method> <!-- testName -->
+      </class> <!-- factories.SimpleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
