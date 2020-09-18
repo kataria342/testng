@@ -28,4 +28,12 @@ public class UsingDataProvider {
 
 	}
 
+	// Using DataProvider mentioned in differnet class
+	@Test(dataProvider = "create", dataProviderClass = DataProviderClass.class)
+	public void testTwo(String name, int age) {
+
+		System.out.println("Name is : " + name + " and age is : " + age);
+
+	}
+
 }

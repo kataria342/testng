@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testOne(Rohit, Student)">testOne(Rohit, Student)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testOne(Test_Three, Role_Three)">testOne(Test_Three, Role_Three)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testOne(Alex, Teacher)">testOne(Alex, Teacher)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testOne(Test_One, Role_One)">testOne(Test_One, Role_One)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testOne(Pawan, Student)">testOne(Pawan, Student)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testOne(Test_Two, Role_Two)">testOne(Test_Two, Role_Two)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parameters.UsingDataProvider" hash-for-method="testTwo(Prabhjeet Singh, 25)">testTwo(Prabhjeet Singh, 25)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -137,26 +142,34 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testOne(Rohit, Student)">
-                  </a> <!-- testOne(Rohit, Student) -->
+                  <a name="testOne(Test_Three, Role_Three)">
+                  </a> <!-- testOne(Test_Three, Role_Three) -->
                   <span class="method-name">testOne</span>
-                  <span class="parameters">(Rohit, Student)</span>
+                  <span class="parameters">(Test_Three, Role_Three)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testOne(Alex, Teacher)">
-                  </a> <!-- testOne(Alex, Teacher) -->
+                  <a name="testOne(Test_One, Role_One)">
+                  </a> <!-- testOne(Test_One, Role_One) -->
                   <span class="method-name">testOne</span>
-                  <span class="parameters">(Alex, Teacher)</span>
+                  <span class="parameters">(Test_One, Role_One)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testOne(Pawan, Student)">
-                  </a> <!-- testOne(Pawan, Student) -->
+                  <a name="testOne(Test_Two, Role_Two)">
+                  </a> <!-- testOne(Test_Two, Role_Two) -->
                   <span class="method-name">testOne</span>
-                  <span class="parameters">(Pawan, Student)</span>
+                  <span class="parameters">(Test_Two, Role_Two)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwo(Prabhjeet Singh, 25)">
+                  </a> <!-- testTwo(Prabhjeet Singh, 25) -->
+                  <span class="method-name">testTwo</span>
+                  <span class="parameters">(Prabhjeet Singh, 25)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,7 +177,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/tmp/testng-eclipse--48926445/testng-customsuite.xml</span>
+            <span class="header-content">/tmp/testng-eclipse-276579347/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -213,7 +226,7 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testOne')
 data.setCell(0, 2, 'parameters.UsingDataProvider')
@@ -223,14 +236,18 @@ data.setCell(1, 1, 'testOne')
 data.setCell(1, 2, 'parameters.UsingDataProvider')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testOne')
+data.setCell(2, 1, 'testTwo')
 data.setCell(2, 2, 'parameters.UsingDataProvider')
 data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testOne')
+data.setCell(3, 2, 'parameters.UsingDataProvider')
+data.setCell(3, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 13 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,16 +275,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">parameters.UsingDataProvider</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testOne(Pawan, Student)</span>
+                <span class="method-name">testOne(Test_One, Role_One)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testOne(Rohit, Student)</span>
+                <span class="method-name">testOne(Test_Two, Role_Two)</span>
                 <span class="method-start">14 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testOne(Alex, Teacher)</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-name">testOne(Test_Three, Role_Three)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTwo(Prabhjeet Singh, 25)</span>
+                <span class="method-start">20 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
