@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="demosuite" duration-ms="119" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+  <suite name="Default suite" duration-ms="50788" started-at="2020-09-18T16:03:23 IST" finished-at="2020-09-18T16:04:13 IST">
     <groups>
     </groups>
-    <test name="example" duration-ms="69" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
-      <class name="parameters.UsingTestNGxml">
-        <test-method status="PASS" signature="testOne(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@74650e52]" name="testOne" duration-ms="11" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pawan]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testSingleString(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@74650e52]" name="testSingleString" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+    <test name="Default test" duration-ms="50788" started-at="2020-09-18T16:03:23 IST" finished-at="2020-09-18T16:04:13 IST">
+      <class name="parameters.UsingDataProvider">
+        <test-method status="PASS" signature="testOne(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingDataProvider@4b1c1ea0]" name="testOne" duration-ms="9" started-at="2020-09-18T16:04:13 IST" data-provider="inputData" finished-at="2020-09-18T16:04:13 IST">
           <params>
             <param index="0">
               <value>
@@ -27,67 +16,46 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Hoshiarpur]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSingleString -->
-        <test-method status="PASS" signature="testTwo(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@74650e52]" name="testTwo" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- parameters.UsingTestNGxml -->
-    </test> <!-- example -->
-    <test name="example1" duration-ms="20" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
-      <class name="parameters.UsingTestNGxml">
-        <test-method status="PASS" signature="testOne(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@bd8db5a]" name="testOne" duration-ms="7" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pawan]]>
+                <![CDATA[Student]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testSingleString(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@bd8db5a]" name="testSingleString" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+        <test-method status="PASS" signature="testOne(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingDataProvider@4b1c1ea0]" name="testOne" duration-ms="2" started-at="2020-09-18T16:04:13 IST" data-provider="inputData" finished-at="2020-09-18T16:04:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Pawan]]>
+                <![CDATA[Rohit]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jalandhar]]>
+                <![CDATA[Student]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSingleString -->
-        <test-method status="PASS" signature="testTwo(java.lang.String)[pri:0, instance:parameters.UsingTestNGxml@bd8db5a]" name="testTwo" duration-ms="2" started-at="2020-09-17T19:07:02 IST" finished-at="2020-09-17T19:07:02 IST">
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testOne(java.lang.String, java.lang.String)[pri:0, instance:parameters.UsingDataProvider@4b1c1ea0]" name="testOne" duration-ms="1" started-at="2020-09-18T16:04:13 IST" data-provider="inputData" finished-at="2020-09-18T16:04:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teacher]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- parameters.UsingTestNGxml -->
-    </test> <!-- example1 -->
-  </suite> <!-- demosuite -->
+        </test-method> <!-- testOne -->
+      </class> <!-- parameters.UsingDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
